@@ -1,0 +1,50 @@
+Dependencies for Project 'FreeRTOS', Target 'FreeRTOS': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x68A60B85)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (stm32f10x.h)(0x68A60B85)
+I (..\CORE\core_cm3.h)(0x662A75B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (system_stm32f10x.h)(0x662A75B3)
+I (stm32f10x_conf.h)(0x662A75B3)
+F (.\stm32f10x_it.c)(0x68A5FBBB)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+F (.\system_stm32f10x.c)(0x68A5FBE9)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+F (..\CORE\core_cm3.c)(0x662A75B3)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\CORE\startup_stm32f10x_hd.s)(0x662A75B3)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\FreeRTOS\croutine.c)(0x662A75B3)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x662A75B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x662A75B3)
+F (..\FreeRTOS\event_groups.c)(0x662A75B3)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x662A75B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x662A75B3)
+F (..\FreeRTOS\list.c)(0x662A75B3)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x662A75B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x662A75B3)
+F (..\FreeRTOS\queue.c)(0x662A75B3)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x662A75B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x662A75B3)
+F (..\FreeRTOS\tasks.c)(0x662A75B3)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x662A75B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x662A75B3)
+F (..\FreeRTOS\timers.c)(0x662A75B3)(-c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ..\USER -I ..\FreeRTOS -I ..\CORE -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\RVDS\ARM_CM3-IC:\Users\lxf\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="536" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x662A75B3)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\FreeRTOS\include\FreeRTOSConfig.h)(0x662A75B3)
