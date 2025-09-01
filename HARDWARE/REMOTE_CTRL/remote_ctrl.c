@@ -49,5 +49,57 @@ void MSG_Analyze_BT(void){
 
 //UI交互
 void UI(void){
+    MSG_Analyze_BT();
+    //*****停车************
+    if(stop_flag==1){
+        stop_flag=0;
+        GPIO_ResetBits(GPIOA,GPIO_Pin_8);
+        turnment=0;
+        zhuan_Kp=0;
+        zhuan_Kd=0;
+        Car_zero_offset=0;
+        return;
+    }
+    //****前进************
+	if(front_flag==1)
+	{
+		front_flag=0;
+		GPIO_SetBits(GPIOA, GPIO_Pin_8);
+		Car_zero_offset=Car_zero_offset+1.6;
+		turnment=0;
+		zhuan_Kp=1;   //期望小车转向，正反馈
+		zhuan_Kd=0;
+		return;
+	}
+	//****后退**********
+	if(back_flag==1)
+	{
+		back_flag=0;
+		GPIO_ResetBits(GPIOA, GPIO_Pin_8);
+		Car_zero_offset=Car_zero_offset-1.67;;
+		turnment=0;
+
+		zhuan_Kp=1;   //期望小车转向，正反馈
+		zhuan_Kd=0;
+		return;
+	}
+	//****左转*********
+	if(turn_left_flag==1)
+	{
+		turn_left_flag=0;
+		turnment=turnmentleft-400;
+		zhuan_Kp=1;
+		zhuan_Kd=0;
+		return;
+	}
+	//***右转*********
+	if(turn_right_flag==1)
+	{
+		turn_right_flag=0;
+		turnment=turnmentright+400;
+		zhuan_Kp=1;
+		zhuan_Kd=0;
+		return;
+	}
 
 }

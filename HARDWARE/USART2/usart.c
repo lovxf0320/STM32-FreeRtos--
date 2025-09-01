@@ -154,4 +154,3 @@ void u2_printf(char *fmt,...){
         USART_SendData(USART2, USART2_TX_BUF[j]);  //发送一个字节
     }
 }
-
